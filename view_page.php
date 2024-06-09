@@ -16,6 +16,7 @@
 <html>
 	<head>
 		<title>View <?php echo($document["assignmentid"]); ?></title>
+		<link rel = "stylesheet" href = "style.css">
 	</head>
 	<body>
 		<h1><?php echo($document["assignmentname"]); ?></h1>

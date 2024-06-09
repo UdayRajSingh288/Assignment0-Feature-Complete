@@ -12,6 +12,7 @@
 <html>
 	<head>
 		<title>Fill form <?php echo($_SESSION["s_assignment"]); ?></title>
+		<link rel = "stylesheet" href = "style.css">
 	</head>
 	<body>
 		<h1>
@@ -19,6 +20,7 @@
 				echo($document["assignmentname"]);;
 			?>
 		</h1>
+		<br><br>
 		<a href = <?php echo("data/" . $document["assignmentid"] . "/" . $document["assignmentpdf"]); ?> download>
 			Assignment document
 		</a>

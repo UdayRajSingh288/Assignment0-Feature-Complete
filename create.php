@@ -2,16 +2,17 @@
 <html>
 	<head>
 		<title>Create assignment</title>
+		<link rel = "stylesheet" href = "style.css">
 	</head>
 	<body>
 		<h1>Create Assignment</h1>
-		<p>Note: Field names should  have no spaces</p>
 		<form action = "create.php" method = "POST" id = "assignmentfieldsform" onSubmit = "validateandsubmit();" enctype = "multipart/form-data">
 			<input type = "test" name = "assignmentname" placeholder = "Enter assignment name" required><br>
 			<label>Select assignment file: </label>
 			<input type = "file" name = "assignmentpdf" accept = "application/pdf" required><br>
 			<label>Create field/s</label><br>
 			<div id = "fields">
+				<p>Note: Field names should  have no spaces</p>
 				<input type = "text" name = "fieldname[]" placeholder = "Enter field name" >
 				<select name = "fieldtype[]">
 					<option value = "text">Text</option>

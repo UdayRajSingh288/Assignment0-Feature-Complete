@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>View assignment</title>
+		<link rel = "stylesheet" href = "style.css">
 	</head>
 	<body>
 		<h1>Select Assignment</h1>

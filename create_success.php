@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Create Success</title>
+		<link rel = "stylesheet" href = "style.css">
 	</head>
 	<body>
 		<h1>
